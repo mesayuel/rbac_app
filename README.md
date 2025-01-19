@@ -5,15 +5,15 @@ Aplikasi Role-Based Access Control (RBAC) sederhana menggunakan Flask dan SQLite
 ## a. Aktifkan Virtual Environment dan Instal Dependensi
 Pastikan Anda berada di direktori proyek dan virtual environment aktif:
 
-# Windows
+## Windows
 venv\Scripts\activate
 
-# macOS/Linux
+## macOS/Linux
 source venv/bin/activate
 
-# Instal dependensi jika belum
+## Instal dependensi jika belum
 pip install -r requirements.txt
 
-## b. Jalankan Test Cases dengan unittest
+### b. Jalankan Test Cases dengan unittest
 
 python -m unittest discover -s tests
